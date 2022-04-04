@@ -1,0 +1,23 @@
+// This is base body
+
+body {
+  display: flex;
+}
+
+h2 {
+  display: flex;
+}
+
+h1 {
+  color: #fff;
+}
+
+@keyframes foo {
+  to {
+    background: red;
+  }
+}
+
+#selector {
+  animation: foo 2s;
+}
